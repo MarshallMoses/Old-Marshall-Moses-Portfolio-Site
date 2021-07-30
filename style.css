@@ -24,10 +24,6 @@ body, nav, a {
     min-height: 100%
 }
 
-.project-link, .nav-link {
-    text-decoration: underline;
-}
-
-.project-link > span {
-    margin-top: 15px;
+.nav-link {
+    border-bottom: 1px;
 }
