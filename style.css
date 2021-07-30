@@ -1,0 +1,33 @@
+html {
+    overflow-x: hidden;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+}
+
+body, nav, a {
+    color: #fff !important;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 600px;
+    margin-bottom: 10px;
+}
+
+.img-fluid {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.project-link, .nav-link {
+    text-decoration: underline;
+}
+
+.project-link > span {
+    margin-top: 15px;
+}
